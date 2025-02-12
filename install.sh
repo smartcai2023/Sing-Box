@@ -22,7 +22,7 @@ cat <<EOF > /etc/sing-box/config.json
   "inbounds": [
     {
       "type": "shadowsocks",
-      "listen": "0.0.0.0",
+      "listen": "::",
       "listen_port": 8080,
       "sniff": true,
       "network": "tcp",
